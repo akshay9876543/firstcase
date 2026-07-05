@@ -1,0 +1,15 @@
+{
+	"name": "adffirstcase",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "397fb81c-07f0-4c71-9f6b-bf62b4342ea9",
+		"tenantId": "fe0c8c14-d62e-40cf-aa1e-695ad899ab64"
+	}
+}
