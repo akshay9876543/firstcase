@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adffirstcase"
+		},
+		"isDatalake_accountKey": {
+			"value": ""
+		},
+		"isSQLdb_password": {
+			"value": ""
+		},
+		"isDatalake_properties_typeProperties_url": {
+			"value": "https://safirstcase.dfs.core.windows.net/"
+		},
+		"isSQLdb_properties_typeProperties_server": {
+			"value": "serverfirstcase.database.windows.net"
+		},
+		"isSQLdb_properties_typeProperties_database": {
+			"value": "dbfirstdb"
+		},
+		"isSQLdb_properties_typeProperties_userName": {
+			"value": "adminfirst"
+		},
+		"ls_rest_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
